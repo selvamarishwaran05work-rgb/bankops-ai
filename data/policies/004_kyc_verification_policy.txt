@@ -1,0 +1,30 @@
+Document ID: WF-OPS-004
+Title: Know Your Customer Verification Policy
+
+Purpose
+
+Ensure regulatory compliance through customer identity verification.
+
+Required Documents
+
+- Government ID
+- Address Proof
+- PAN or Tax ID
+- Photograph
+
+Enhanced Due Diligence
+
+Required when:
+- High value customers
+- Politically Exposed Persons
+- High-risk jurisdictions
+
+Escalation
+
+Missing documentation.
+Document mismatch.
+Identity verification failure.
+
+Compliance
+
+Never approve incomplete KYC.

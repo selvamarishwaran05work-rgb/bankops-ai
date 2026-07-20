@@ -1,0 +1,34 @@
+Document ID: WF-OPS-003
+Title: Chargeback Processing Policy
+Version: 1.0
+
+Purpose
+Defines procedures for processing customer disputes relating to card transactions.
+
+Investigation Steps
+
+1. Verify customer identity.
+2. Verify transaction exists.
+3. Determine dispute reason.
+4. Check merchant response.
+5. Validate supporting evidence.
+6. Initiate chargeback if eligible.
+
+Chargeback Reasons
+
+- Duplicate transaction
+- Goods not received
+- Unauthorized transaction
+- Incorrect amount
+- Cancelled service
+
+Escalation
+
+Escalate if:
+- Merchant disputes evidence
+- Amount exceeds policy threshold
+- Legal notice received
+
+Compliance
+
+Do not guarantee successful recovery.

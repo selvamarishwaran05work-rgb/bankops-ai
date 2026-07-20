@@ -1,0 +1,61 @@
+Document ID: WF-OPS-002
+Title: Fraud Investigation Policy
+Version: 1.0
+
+Purpose
+This policy defines procedures for handling suspected fraudulent banking activity while minimizing financial loss and protecting customer accounts.
+
+Scope
+Applies to:
+- Debit cards
+- Credit cards
+- Online Banking
+- Wire Transfers
+- Mobile Banking
+
+Investigation Procedure
+
+Authenticate customer identity.
+
+Collect:
+- Date
+- Amount
+- Merchant
+- Channel
+- Customer observations
+
+Review:
+- Device history
+- Login history
+- Recent beneficiary additions
+- Transaction velocity
+- Geographic anomalies
+
+Decision Criteria
+
+High Risk:
+- Foreign transaction
+- Multiple failed logins
+- High value transfers
+- Device mismatch
+
+Medium Risk:
+- New merchant
+- Multiple OTP attempts
+
+Low Risk:
+- Merchant clarification required
+
+Escalation Matrix
+
+Immediate escalation required for:
+- Identity theft
+- Account takeover
+- International fraud
+- Wire fraud
+
+Compliance Notes
+
+Never disclose investigation details.
+Never accuse customers of fraud.
+Never guarantee reimbursement.

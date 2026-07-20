@@ -1,0 +1,32 @@
+Document ID: WF-OPS-005
+Title: Account Freeze Investigation Policy
+
+Purpose
+
+Defines procedures for account restriction investigations.
+
+Possible Reasons
+
+- Court order
+- Regulatory request
+- Fraud detection
+- AML monitoring
+- Customer request
+
+Investigation
+
+Review:
+- Freeze source
+- Freeze duration
+- Regulatory notes
+- Customer history
+
+Escalation
+
+Legal Team
+Compliance Team
+Fraud Team
+
+Compliance
+
+Do not remove freezes without authorization.

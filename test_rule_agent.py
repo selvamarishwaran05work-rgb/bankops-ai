@@ -5,7 +5,7 @@ controller = InvestigationController()
 
 request = InvestigationRequest(
     customer_id="C12345",
-    issue="I think someone has stolen money from my account."
+    issue="Customer reports duplicate debit card transaction yesterday."
 )
 
 response = controller.investigate(request)

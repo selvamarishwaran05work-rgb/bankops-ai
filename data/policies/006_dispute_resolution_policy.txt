@@ -1,0 +1,36 @@
+Document ID: WF-OPS-006
+Title: Customer Dispute Resolution Policy
+
+Purpose
+
+Guide customer service representatives through dispute handling.
+
+Workflow
+
+Receive complaint.
+
+Collect evidence.
+
+Review transactions.
+
+Consult applicable policies.
+
+Determine recommendation.
+
+Escalate when necessary.
+
+Communication
+
+Explain findings clearly.
+
+Avoid assumptions.
+
+Do not speculate.
+
+Compliance
+
+Maintain complete audit trail.
+
+Protect customer privacy.
+
+Never disclose confidential internal investigation notes.

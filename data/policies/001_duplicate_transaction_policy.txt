@@ -1,0 +1,60 @@
+Document ID: WF-OPS-001
+Title: Duplicate Transaction Investigation Policy
+Version: 1.0
+
+Purpose
+This document defines the standard operating procedure for investigating suspected duplicate debit card or credit card transactions reported by customers. The objective is to determine whether multiple postings resulted from merchant processing errors, authorization retries, delayed settlement, or genuine duplicate transactions while ensuring customer communication remains accurate and compliant.
+
+Scope
+Applies to debit cards, credit cards, ATM withdrawals and POS purchases.
+
+Investigation Procedure
+
+Step 1
+Verify customer identity using approved authentication procedures.
+
+Step 2
+Retrieve all transactions for the reported account covering the previous seven calendar days.
+
+Step 3
+Identify transactions having:
+- identical merchant
+- identical amount
+- identical card
+- transaction timestamps within acceptable duplicate thresholds
+
+Step 4
+Determine whether one transaction represents an authorization hold rather than a posted transaction.
+
+Step 5
+Review settlement status.
+
+Decision Criteria
+
+A duplicate transaction may be confirmed when:
+- Merchant name matches
+- Amount matches
+- Card number matches
+- Both transactions are posted
+- No reversal exists
+
+Escalation Matrix
+
+Escalate immediately when:
+- Duplicate amount exceeds $5,000
+- More than five duplicate transactions exist
+- International merchants are involved
+- Fraud indicators are detected
+
+Exceptions
+
+Do not classify the following as duplicate:
+- Authorization holds
+- Partial reversals
+- Split merchant settlements
+
+Compliance Notes
+
+Never promise refunds before investigation completion.
+Never manually adjust customer balances.
+Escalate uncertain cases to Operations Support.

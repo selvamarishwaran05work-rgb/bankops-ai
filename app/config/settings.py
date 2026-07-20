@@ -22,7 +22,8 @@ class Settings(BaseSettings):
     ai_provider: str = "openai"
     openai_api_key: str
     openai_base_url: str | None = None
-    default_model: str = "gpt-5-mini"
+    chat_model: str = "gpt-5-mini"
+    embedding_model: str = "text-embedding-3-small"
 
     # --------------------------
     # Pinecone
@@ -35,6 +36,8 @@ class Settings(BaseSettings):
     # --------------------------
     langsmith_api_key: str = ""
     langsmith_tracing: bool = False
+
+    workflow_engine: str = "rule"
 
     model_config = SettingsConfigDict(
         env_file=".env",

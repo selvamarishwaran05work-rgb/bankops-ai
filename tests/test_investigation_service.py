@@ -1,6 +1,7 @@
 from langchain_core.messages import AIMessage, HumanMessage
 
 from app.domain.models.investigation_request import InvestigationRequest
+from app.graph.planner_node import planner_node
 from app.services.investigation_service import investigation_service
 
 
@@ -29,3 +30,15 @@ def test_get_thread_state_returns_persisted_messages(tmp_path, monkeypatch):
     assert len(state["messages"]) == 2
     assert state["messages"][0].content == "Check this case"
     assert state["messages"][1].content == "I am reviewing it"
+
+
+def test_planner_node_does_not_duplicate_user_message(monkeypatch):
+    request = InvestigationRequest(customer_id="C100", issue="Help me solve the duplicate transaction")
+    state = {"request": request, "messages": [HumanMessage(content="existing context")]}
+
+    monkeypatch.setattr("app.graph.planner_node.planner.create_plan", lambda request: None)
+
+    updated_state = planner_node(state)
+
+    assert len(updated_state["messages"]) == 1
+    assert updated_state["messages"][0].content == "existing context"

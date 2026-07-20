@@ -30,10 +30,11 @@ class Planner:
         )
 
         adaptive_prompt = ""
+        insights = feedback_service.get_feedback_insights()
+        recent_comments = insights.get("recent_comments", [])
 
         if negative > positive:
-
-            adaptive_prompt = """
+            adaptive_prompt = f"""
         Recent users reported that previous investigation plans were not detailed enough.
 
         Generate:
@@ -41,6 +42,14 @@ class Planner:
         - Clear reasoning
         - Fewer unnecessary tool calls
         - Better structured execution steps.
+
+        Also incorporate the following user feedback comments:
+        {json.dumps(recent_comments, indent=2)}
+        """
+        elif recent_comments:
+            adaptive_prompt = f"""
+        Use the latest user comments to improve the response style:
+        {json.dumps(recent_comments, indent=2)}
         """
         system_prompt = f"""
 You are an AI Planning Agent for a Banking Investigation System.

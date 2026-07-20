@@ -1,5 +1,16 @@
 ﻿# BankOps AI Investigation Assistant
 
+## Quick Start
+1. Create and activate a Python environment.
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the app:
+   ```bash
+   streamlit run streamlit_app.py
+   ```
+
 ## Overview
 This project implements a bank-operations investigation assistant with a multi-step workflow:
 - baseline handling and structured investigation prompts
